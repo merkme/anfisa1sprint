@@ -10,10 +10,13 @@
   </head>
   <body>
     {% include "includes/header.html" %}
-    <main>
+    <main class="pt-5 my-5">       
+      <div class="container">
       {% block content %}
       {% endblock %}
     </main>
     {% include "includes/footer.html" %}   
   </body>
+  <script src="js/jquery-3.2.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </html>
